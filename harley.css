@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tertiary-Font,NotoSans-Regular,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #000;
+    background-color: #fff;
+}
+.header{
+    width: 100%;
+}
+nav{
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+    border: none;
+    
+}
+.nav2{
+    height: 63px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav3{
+    height: 43px;
+    background-color: #fa6600;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 8px;
+}
+.nav3 h3{
+    font-weight: lighter;
+}
+.nav3 a{
+    text-decoration: underline;
+}.nav3 a:hover{ text-decoration: none; cursor: pointer;}
+nav button{
+    color: #fff;
+    background-color: #000;
+   margin-right: 30px;
+}nav button:hover{text-decoration: underline; cursor: pointer;}
+nav img{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.logo{
+    margin-left: 100px;
+
+}
+.logo img{
+    width: 50px;
+    height: 35px;
+}
+.logo button{
+    font-size: 15px;
+    font-weight:bold;
+    color: #000;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: none;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.signin{
+    margin-right: 100px;
+    padding: 15px;
+}
+.signin input{
+    width: 175px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: 10px;
+   
+}
+.signin img{
+    width: 10px;
+    height: 15px;
+   
+}
+.signin button{
+    height: 35px ;
+    width: 50px;
+    background-color: #fff;
+    border: none;
+}
+.signin button:hover{
+    color: #fa6600;
+    cursor: pointer;
+}
+.imagepart{
+    background-image:  url('images/background.webp');
+    width: 100%;
+    height: 120vh;
+    background-size:cover;
+    background-position: center;
+    padding: 100px 100px;
+    color: #fff;
+}
+.imagepart h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;  
+}
+.imagepart h6{
+    font-size: 16px;
+    margin: 10px;
+}
+.imagepart button{
+    font-size: 17px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    width: 150px;
+    height: 42px;
+}
+.kinds{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 50px;
+    font-family: secondary-font-bold,sans-serif;    
+    word-spacing: 4px;   
+}.k:hover{cursor: pointer; color: #fa6600;}
+
+/*-----------------------features-----------------------*/
+
+.features1{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 20px;
+}
+.features2{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 20px;
+    background-color: gainsboro;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.text-col{
+    flex-basis: 40%;
+    padding-left: 20px;
+}
+.text-col h5{
+    font-weight: bold;font-size: 16px;
+}
+.text-col hr{
+    color: #fff;height: 20px;background-color:#fff;border-width: 0;
+}
+.img-col{
+    flex-basis: 60%;
+}
+.img-col img{
+    width: 790px;
+    height: 455px;
+}
+.features2 hr{
+    background-color: gainsboro;
+}
+
+/*--------------content--------------*/
+
+.content1{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.content1 .txt{
+    width: 100%;
+    height: 100px;
+    padding: 50px 100px;    
+    font-size: 15px;
+}
+.content1 img{
+    width: 790px;
+    height: 455px;
+    padding: 7px;
+}
+.content1 .slide{
+    padding-left: 300px;
+    padding-bottom: 50px;
+
+}
+.content1 h4,p{
+    padding: 7px;
+}
+
+
+
+
+.content2{
+    width: 100%;
+    height: 90vh;
+    background-color: gainsboro;
+} 
+.content2 .row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.content2 .col1{
+    flex-basis: 50% ;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+.content2 .col2{
+    flex-basis: 50%;
+    padding-top: 70px;
+}
+.content2 img{
+    width: 650px;
+    height: 500px;
+    padding-top: 20px;
+}.content2 .col2 h1{color: gainsboro;}
+.content2 h4{padding-top: 35px;font-weight: bold;}
+.content2 h1{font-weight: bold;}
+
+
+
+
+.content3{
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+}
+.content3 .row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.content3 .col3{
+    flex-basis: 33.33%;
+    padding-left: 50px;
+}
+.content3 .col4{
+    flex-basis: 33.33%;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.content3 .col5{
+    flex-basis: 33.33%;
+    padding-top: 35px;
+    padding-right: 70px;
+}
+.content3 img{
+    width: 425px;
+    height: 400px;
+    padding-top: 20px;
+}
+.content3 h4{
+    padding-top: 20px;
+}
+.content3 p{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------footer------------*/
+.footer{
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+    padding: 50px 10%;
+    color: #fff;
+}
+.footer h1{
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.footer h3{
+    padding: 20px 0px;
+    font-weight: 800;
+}
+.footer .col6{
+    flex-basis: 40%;
+    flex-grow: 2;
+}
+.footer .row4 a{
+    display: block;
+    padding-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer .row4{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 50px 50px;
+}
+.kinds .move1{
+    padding-right: 100px;
+}
+.kinds .move2{
+    padding-right: 200px;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.end3{
+   flex-direction: row;
+}
+.end1 button{
+    width: 244px;
+    height: 35px;
+    font-size: 16px;
+    padding-top: 2px;
+    background-color: #000;
+    color: #fff;
+    border-color: orange;
+    padding-right: 60px;;
+    border-radius: 6px;
+}.end1 button img{width: 15px;height: 15px;}
+.end img{
+    width: 20px;
+    height: 20px;
+}
+.end2{
+    padding-right: 50px;
+}
+
+.qwe h1{
+    color: #fff;
+    text-decoration: none;
+}
+
